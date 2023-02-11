@@ -1,0 +1,53 @@
+:root {
+    --clr-neutral-900: hsl(207, 19%, 9%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-400: hsl(142, 90%, 61%);
+    --clr-neutral-500: hsl(241, 52%, 60%);
+    --clr-neutral-700: hsl(56, 100%, 50%);
+    --clr-neutral-600: hsl(0, 86%, 61%);
+}
+body{
+    display: grid;
+    min-height: 100vh;
+    line-height: 1.6;
+    background: var(--clr-neutral-900);
+    font-family: sans-serif;
+    padding-right: 15em;
+}
+.a1
+{
+	
+	position: absolute;
+    left: 150px;
+    top: 130px;
+    padding: 10px;
+    background-color: orangered;
+    border-radius: 5px;
+    z-index: 20;
+width: 400px;
+height:300px;
+}
+
+.a2
+{
+	position: absolute;
+    left: 450px;
+    top: 130px;
+    padding: 10px;
+    background-color: orangered;
+    border-radius: 5px;
+    z-index: 20;
+width: 400px;
+height: 300px;
+}
+
+
+.a1:hover, .a2:hover {
+    
+    background-color: whitesmoke;
+    
+}
+.p1
+{
+	color:grey;
+}
